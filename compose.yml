@@ -6,6 +6,8 @@ services:
       VERSION: "2025"
       RAM_SIZE: "16G"
       CPU_CORES: "4"
+      USERNAME: "mar"
+      PASSWORD: "marpogi"
     devices:
       - /dev/kvm
     cap_add:
